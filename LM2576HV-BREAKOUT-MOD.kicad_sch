@@ -713,278 +713,7 @@
 				)
 			)
 		)
-		(symbol "Device:R_Potentiometer_Small"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RV"
-				(at -4.445 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Potentiometer_Small"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Potentiometer"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "resistor variable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Potentiometer*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Potentiometer_Small_0_1"
-				(polyline
-					(pts
-						(xy 0.889 0) (xy 0.635 0) (xy 1.651 0.381) (xy 1.651 -0.381) (xy 0.635 0) (xy 0.889 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.762 1.8034)
-					(end -0.762 -1.8034)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Potentiometer_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.635)
-					(name "1"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 0.9906)
-					(name "2"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.635)
-					(name "3"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:R_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Regulator_Switching:LM2576HVS-ADJ"
+		(symbol "Regulator_Switching:LM2576HVS-12"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1000,7 +729,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "LM2576HVS-ADJ"
+			(property "Value" "LM2576HVS-12"
 				(at 0 6.35 0)
 				(effects
 					(font
@@ -1029,7 +758,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Adjustable Output Voltage, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, TO-263"
+			(property "Description" "12V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, TO-263"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1038,7 +767,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Step-Down Voltage Regulator 3A Adjustable High Voltage"
+			(property "ki_keywords" "Step-Down Voltage Regulator 12V 3A High Voltage"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1056,7 +785,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM2576HVS-ADJ_0_1"
+			(symbol "LM2576HVS-12_0_1"
 				(rectangle
 					(start -10.16 5.08)
 					(end 10.16 -5.08)
@@ -1069,7 +798,7 @@
 					)
 				)
 			)
-			(symbol "LM2576HVS-ADJ_1_1"
+			(symbol "LM2576HVS-12_1_1"
 				(pin power_in line
 					(at -12.7 2.54 0)
 					(length 2.54)
@@ -1512,16 +1241,16 @@
 		(uuid "1a15c991-9552-4e4d-ab73-7426cbeda1b2")
 	)
 	(junction
+		(at 173.99 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e3f2b7c-ce30-4ecb-8893-023b40711685")
+	)
+	(junction
 		(at 96.52 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29e071c1-23ce-404a-91b1-017a5639a266")
-	)
-	(junction
-		(at 200.66 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31356460-109e-47cf-a2ad-bc068fb7d682")
 	)
 	(junction
 		(at 146.05 82.55)
@@ -1530,16 +1259,16 @@
 		(uuid "3e489bea-f0c3-4c8a-8054-2f1efa4a5f68")
 	)
 	(junction
-		(at 184.15 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f3c164b-de2c-429f-aa8d-7a249bbe727c")
-	)
-	(junction
 		(at 130.81 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "594704bd-7346-4918-8232-8cb3e225d48b")
+	)
+	(junction
+		(at 173.99 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6335f959-fd6f-4160-b99f-a6e929dfcb42")
 	)
 	(junction
 		(at 146.05 92.71)
@@ -1584,20 +1313,10 @@
 		(uuid "a7758cc4-c740-48e3-8bab-1a4569203cc2")
 	)
 	(junction
-		(at 173.99 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1530dac-ccfd-403e-b86c-6872f34ef253")
-	)
-	(junction
 		(at 83.82 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d471d052-4d61-4674-b644-2424daedb013")
-	)
-	(no_connect
-		(at 207.01 82.55)
-		(uuid "4d6854ff-1441-4860-8351-91bc8a813901")
 	)
 	(wire
 		(pts
@@ -1681,7 +1400,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 82.55) (xy 184.15 82.55)
+			(xy 173.99 77.47) (xy 184.15 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1751,7 +1470,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 76.2) (xy 173.99 82.55)
+			(xy 173.99 76.2) (xy 173.99 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1768,46 +1487,6 @@
 			(type default)
 		)
 		(uuid "5f489d20-f8fb-4d56-a37f-8ce33103e68a")
-	)
-	(wire
-		(pts
-			(xy 184.15 82.55) (xy 194.31 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "605e013c-4ed9-4d70-a424-d83f30e980f4")
-	)
-	(wire
-		(pts
-			(xy 204.47 92.71) (xy 204.47 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6687f532-95b8-4f3e-a12f-f5291783825a")
-	)
-	(wire
-		(pts
-			(xy 200.66 82.55) (xy 199.39 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e21ed7a-1b95-42d6-b207-991a65e90874")
-	)
-	(wire
-		(pts
-			(xy 195.58 77.47) (xy 200.66 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80111c22-ba73-4395-8e64-4f76c6086df4")
 	)
 	(wire
 		(pts
@@ -1831,7 +1510,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 77.47) (xy 143.51 77.47)
+			(xy 143.51 77.47) (xy 173.99 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1931,16 +1610,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 77.47) (xy 200.66 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b27ef285-ff56-4f07-80f7-f535dad4812b")
-	)
-	(wire
-		(pts
 			(xy 153.67 82.55) (xy 156.21 82.55)
 		)
 		(stroke
@@ -1948,16 +1617,6 @@
 			(type default)
 		)
 		(uuid "bf2f3c45-f39c-4e8d-ad65-b8ab24cee1ad")
-	)
-	(wire
-		(pts
-			(xy 204.47 85.09) (xy 204.47 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c20943bd-70ac-4462-859a-909b20f929df")
 	)
 	(wire
 		(pts
@@ -1981,26 +1640,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 92.71) (xy 173.99 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd332370-62dc-46d8-a34b-318e03690a10")
-	)
-	(wire
-		(pts
-			(xy 200.66 82.55) (xy 201.93 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0e662ac-3d1d-4d53-adb4-e2beed255145")
-	)
-	(wire
-		(pts
 			(xy 165.1 92.71) (xy 173.99 92.71)
 		)
 		(stroke
@@ -2021,6 +1660,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 92.71) (xy 184.15 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7f7101b-6927-4b21-bbc5-cdb5cb31a31d")
+	)
+	(wire
+		(pts
 			(xy 156.21 92.71) (xy 165.1 92.71)
 		)
 		(stroke
@@ -2028,16 +1677,6 @@
 			(type default)
 		)
 		(uuid "dbc181b9-3cce-4365-afd7-ff0f6499bc3d")
-	)
-	(wire
-		(pts
-			(xy 184.15 82.55) (xy 184.15 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de0f7208-8e15-46d2-9c7f-3cc2c7867eb0")
 	)
 	(wire
 		(pts
@@ -2071,6 +1710,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 77.47) (xy 173.99 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ede73a11-eacc-4bfc-b923-7fb413c65677")
+	)
+	(wire
+		(pts
 			(xy 130.81 93.98) (xy 130.81 92.71)
 		)
 		(stroke
@@ -2098,194 +1747,6 @@
 			(justify left bottom)
 		)
 		(uuid "17e3b1d5-283a-44a0-81a4-9d6fdcbcaa70")
-	)
-	(label "TRIM"
-		(at 204.47 85.09 270)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify right bottom)
-		)
-		(uuid "51c452e3-2c56-463a-9620-46dbd3d0d57b")
-	)
-	(global_label "FB"
-		(shape input)
-		(at 144.78 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "82dc5359-32fe-4396-8d2f-ce4fc945e475")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.78 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "FB"
-		(shape output)
-		(at 195.58 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c3361468-0c3b-4773-b4fc-6f6c7a60fa0f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.58 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 204.47 90.17 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0096d2cf-17c2-408b-8f67-2fbd9a326323")
-		(property "Reference" "R1"
-			(at 201.93 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 201.93 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 204.47 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 204.47 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "34c4edac-e64a-45a6-beef-58fd28f00220")
-		)
-		(pin "1"
-			(uuid "da5d3871-cc4c-4c1b-9282-cea322c8dea2")
-		)
-		(instances
-			(project "LM2576HV-BREAKOUT-MOD"
-				(path "/1c30211d-89f8-4fdd-992e-b71e78000d0b"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 196.85 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09f8e04d-4336-45a1-b864-0adefd021f3b")
-		(property "Reference" "R2"
-			(at 196.85 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k5"
-			(at 196.85 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 196.85 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 196.85 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ce7a86f8-48c5-4d5b-9f60-e2db43bbc22a")
-		)
-		(pin "1"
-			(uuid "762ccb3e-0eaa-401a-9c7d-0fa6329f543e")
-		)
-		(instances
-			(project "LM2576HV-BREAKOUT-MOD"
-				(path "/1c30211d-89f8-4fdd-992e-b71e78000d0b"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_Small")
@@ -2353,78 +1814,6 @@
 			(project ""
 				(path "/1c30211d-89f8-4fdd-992e-b71e78000d0b"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer_Small")
-		(at 204.47 82.55 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ca55b4c-e719-4b23-a36e-8314b3798a28")
-		(property "Reference" "RV1"
-			(at 204.47 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 204.47 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
-			(at 204.47 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 204.47 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "023681fd-f746-42a5-a014-efe4729dadd0")
-		)
-		(pin "3"
-			(uuid "51e3b93d-082e-48c8-9ebb-c0435dc8c9ab")
-		)
-		(pin "1"
-			(uuid "a8cd55bf-7d1a-43c8-acdc-aff5acac1a5f")
-		)
-		(instances
-			(project ""
-				(path "/1c30211d-89f8-4fdd-992e-b71e78000d0b"
-					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -2501,75 +1890,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 204.47 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41a1a2c9-9525-48e5-afc9-a228028beee3")
-		(property "Reference" "#PWR3"
-			(at 204.47 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 204.47 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9787a31-b6e7-428f-8d93-055054ca2abf")
-		)
-		(instances
-			(project "LM2576HV-BREAKOUT-MOD"
-				(path "/1c30211d-89f8-4fdd-992e-b71e78000d0b"
-					(reference "#PWR3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 173.99 101.6 90)
+		(at 189.23 92.71 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2579,7 +1901,7 @@
 		(fields_autoplaced yes)
 		(uuid "41f9b7b5-f1f6-4ad3-929c-73fe6bd55881")
 		(property "Reference" "J4"
-			(at 177.8 101.6 0)
+			(at 189.23 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2587,7 +1909,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 177.8 101.6 0)
+			(at 189.23 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2596,7 +1918,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 173.99 101.6 0)
+			(at 189.23 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2605,7 +1927,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 101.6 0)
+			(at 189.23 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,7 +1936,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 173.99 101.6 0)
+			(at 189.23 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2971,7 +2293,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 184.15 101.6 90)
+		(at 189.23 77.47 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2981,7 +2303,7 @@
 		(fields_autoplaced yes)
 		(uuid "9bb12a89-be06-47a6-9760-51f4c6c79708")
 		(property "Reference" "J3"
-			(at 187.96 101.6 0)
+			(at 189.23 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2989,7 +2311,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 187.96 101.6 0)
+			(at 189.23 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2998,7 +2320,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 184.15 101.6 0)
+			(at 189.23 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3007,7 +2329,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 101.6 0)
+			(at 189.23 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3016,7 +2338,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 184.15 101.6 0)
+			(at 189.23 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3031,85 +2353,6 @@
 			(project "LM2576HV-BREAKOUT-MOD"
 				(path "/1c30211d-89f8-4fdd-992e-b71e78000d0b"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Switching:LM2576HVS-ADJ")
-		(at 130.81 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ee4f041-40cd-43c0-a27b-bc7ba793f984")
-		(property "Reference" "U1"
-			(at 130.81 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM2576HVS-ADJ"
-			(at 130.81 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3"
-			(at 130.81 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2576.pdf"
-			(at 130.81 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Adjustable Output Voltage, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, TO-263"
-			(at 130.81 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3778fd26-239a-4ebd-b822-06786db2a7f3")
-		)
-		(pin "1"
-			(uuid "fe7234c1-a352-4542-95ca-db285b09d4a0")
-		)
-		(pin "5"
-			(uuid "a46c13fd-7db7-4671-8582-d72d2512b8f4")
-		)
-		(pin "3"
-			(uuid "7501b478-31f1-4aa7-baf8-90380331ca87")
-		)
-		(pin "4"
-			(uuid "a842336f-c257-4e80-97fd-6655148fc4d9")
-		)
-		(instances
-			(project ""
-				(path "/1c30211d-89f8-4fdd-992e-b71e78000d0b"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -3454,6 +2697,85 @@
 			(project ""
 				(path "/1c30211d-89f8-4fdd-992e-b71e78000d0b"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Switching:LM2576HVS-12")
+		(at 130.81 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e220e4fa-d351-4ff1-8678-9013e3c9f64c")
+		(property "Reference" "U1"
+			(at 130.81 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM2576HVS-12"
+			(at 130.81 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3"
+			(at 130.81 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2576.pdf"
+			(at 130.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, TO-263"
+			(at 130.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f60ac17-5051-4d05-ada7-aeb12d0388db")
+		)
+		(pin "2"
+			(uuid "608715a4-72c7-47eb-9ef9-59003ee3787e")
+		)
+		(pin "3"
+			(uuid "242e0838-2cf0-456d-b6e8-a59e6edd8b7c")
+		)
+		(pin "5"
+			(uuid "994d66a4-17ce-4eb1-a126-dc898885f5b5")
+		)
+		(pin "4"
+			(uuid "0ae1124a-ba36-4614-afb7-c2a9a0050f43")
+		)
+		(instances
+			(project ""
+				(path "/1c30211d-89f8-4fdd-992e-b71e78000d0b"
+					(reference "U1")
 					(unit 1)
 				)
 			)
